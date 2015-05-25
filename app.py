@@ -7,7 +7,7 @@ from bottle import request
 app = application = bottle.Bottle()
 
 
-@app.route('/')
+@app.route('/test')
 def show_index():
 
     return str(request.environ)
